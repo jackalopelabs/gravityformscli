@@ -1,20 +1,9 @@
 {
-  "name": "masoninthesis/gravityformscli",
-  "description": "Fork of GravityFormsCLI repo so we can use it in our composer architecture.",
-  "type": "wordpress-plugin",
-  "license": "GPL-3.0",
-  "minimum-stability": "dev",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:masoninthesis/gravityformscli.git"
+    "name": "jackalopeio/gravityformscli",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "classmap": [
+            "."
+        ]
     }
-  ],
-  "require": {
-    "php": ">=5.3",
-    "composer/installers": "~1.0"
-  },
-  "extra": {
-    "installer-name": "gravityformscli"
-  }
 }
